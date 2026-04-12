@@ -26,7 +26,8 @@ export default function SpotlightEffect() {
   return (
     <div
       ref={spotlightRef}
-      className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
+      // keep the spotlight fixed so it follows the viewport while scrolling
+      className="pointer-events-none fixed inset-0 z-50 transition duration-300"
       aria-hidden="true"
     />
   );

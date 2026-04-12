@@ -14,8 +14,17 @@ const experiences: Experience[] = [
     url: "https://www.hrblock.com/",
     range: "NOV 2023 — Present",
     description:
-      "Revamped the payment platform by optimizing onboarding flows and integrating Adyen as the primary payment provider to boost reliability and performance. Improved code quality with automated tests using React Testing Library and Vitest, and developed reusable UI components and stories for Wave HQ to ensure consistent, scalable development.",
-    technologies: ["TypeScript", "React", "React Native", "Storybook", "Vite", "RTL", "Redux", "JavaScript"],
+      "Led payment onboarding improvements by optimizing user flows and integrating Adyen, boosting transaction reliability. I also built and maintained full-stack marketplace integrations with Etsy and eBay, improving data sync and third-party onboarding. Throughout, I focused on code quality through automated testing and reusable UI component development.",
+    technologies: [
+      "TypeScript",
+      "React",
+      "React Native",
+      "Storybook",
+      "Vite",
+      "RTL",
+      "Redux",
+      "Django",
+    ],
   },
   {
     title: "Software Developer",
@@ -23,8 +32,16 @@ const experiences: Experience[] = [
     url: "https://igdst.com/",
     range: "MAR 2021 — NOV 2023",
     description:
-      "Built full-stack web applications using ReactJS, Redux, Node.js, and Feathers, delivering responsive interfaces and scalable APIs. Designed MySQL databases with Sequelize for efficient data management and implemented secure JWT authentication. Optimized performance through Redux middleware and caching to achieve faster load times and an improved user experience.",
-    technologies: ["React", "Redux", "JavaScript", "Node.js", "Sequelize", "MySQL", "HTML & SCSS"],
+      "Built full-stack web applications, delivering responsive interfaces and scalable APIs. Designed MySQL databases with Sequelize for efficient data management and implemented secure JWT authentication. Optimized performance through Redux middleware and caching to achieve faster load times and an improved user experience.",
+    technologies: [
+      "React",
+      "Redux",
+      "JavaScript",
+      "Node.js",
+      "Sequelize",
+      "MySQL",
+      "HTML & SCSS",
+    ],
   },
   {
     title: "Java Developer Trainee",
