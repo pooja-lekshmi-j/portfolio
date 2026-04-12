@@ -44,7 +44,7 @@ export default function About() {
         </FadeIn>
         <FadeIn delay={200}>
           <p className="mb-4 text-slate-400 leading-relaxed">
-            Before H&R Block, I worked as a Full-Stack Developer at{" "}
+            Previously, I worked as a Full stack developer at{" "}
             <a
               href="https://www.igdst.com/"
               className="link-underline font-semibold text-slate-200 hover:text-teal-400 focus-visible:text-teal-400 transition-colors"
