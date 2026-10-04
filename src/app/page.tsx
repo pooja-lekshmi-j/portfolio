@@ -36,6 +36,11 @@ export default function Home() {
                   I&apos;m currently open to new opportunities. Whether you have a question, a project idea, or just want to say hi — my inbox is always open.
                 </p>
               </FadeIn>
+              <FadeIn delay={225}>
+                <p className="mt-2 max-w-md leading-relaxed text-slate-400">
+                 Open to international opportunities.
+                </p>
+              </FadeIn>
               <FadeIn delay={300}>
                 <a
                   href="mailto:poojalekshmij@gmail.com"

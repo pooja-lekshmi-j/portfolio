@@ -5,16 +5,20 @@ export interface Experience {
   range: string;
   description: string;
   technologies: string[];
+  promotedFrom?: string;
+  promotedDate?: string;
 }
 
 const experiences: Experience[] = [
   {
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company: "H&R Block",
     url: "https://www.hrblock.com/",
+    promotedFrom: "Software Engineer",
+    promotedDate: "Sep 2026",
     range: "NOV 2023 — Present",
     description:
-      "Led payment onboarding improvements by optimizing user flows and integrating Adyen, boosting transaction reliability. I also built and maintained full-stack marketplace integrations with Etsy and eBay, improving data sync and third-party onboarding. Throughout, I focused on code quality through automated testing and reusable UI component development.",
+      "Led payment onboarding improvements by optimizing user flows and integrating Adyen, boosting transaction reliability. I also built and maintained full-stack marketplace integrations with Etsy, eBay and Amazon, improving data sync and third-party onboarding. As a part of the Vulnerability Management team, I triaged and remediated security findings, while maintaining code quality through automated testing and reusable UI components.",
     technologies: [
       "TypeScript",
       "React",

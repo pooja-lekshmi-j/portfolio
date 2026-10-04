@@ -11,22 +11,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Pooja Lekshmi J | Software Engineer",
+  title: "Pooja Lekshmi J | Senior oftware Engineer",
   description:
-    "Pooja Lekshmi J — Software Engineer. I build fast, reliable, user-friendly web apps.",
+    "Pooja Lekshmi J — Senior Software Engineer. I build fast, reliable, user-friendly web apps.",
   metadataBase: new URL("https://poojalekshmij.dev"),
   openGraph: {
-    title: "Pooja Lekshmi J | Software Engineer",
+    title: "Pooja Lekshmi J | Senior Software Engineer",
     description:
-      "Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
+      "Senior Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pooja Lekshmi J | Software Engineer",
+    title: "Pooja Lekshmi J | Senior oftware Engineer",
     description:
-      "Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
+      "Senior Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
   },
   other: {
     "theme-color": "#0f172a",

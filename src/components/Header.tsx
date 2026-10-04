@@ -45,7 +45,7 @@ export default function Header() {
         </FadeIn>
         <FadeIn delay={100}>
           <h2 className="mt-3 flex items-center gap-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-            Software Engineer
+            Senior Software Engineer
           </h2>
         </FadeIn>
         <FadeIn delay={200}>

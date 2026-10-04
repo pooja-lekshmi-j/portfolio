@@ -24,7 +24,7 @@ export default function Experience() {
                 <div className="absolute -inset-x-4 -inset-y-6 z-0 hidden rounded-md transition-all duration-200 motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/5 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
 
                 <header
-                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                  className="z-10 mb-2 mt-1 whitespace-nowrap text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
                   aria-label={exp.range}
                 >
                   {exp.range}
@@ -50,6 +50,12 @@ export default function Experience() {
                         </span>
                       </a>
                     </div>
+                    {exp.promotedFrom &&(
+                      <div className="mt-2 inline-flex items-center rounded-full bg-teal-400/10 px-2.5 py-0.5 text-[11px] font-medium text-teal-400">
+                        Promoted from {exp.promotedFrom} 
+                         {exp.promotedDate && ` · ${exp.promotedDate}`}
+                      </div>
+                    )}
                   </h3>
 
                   <p className="mt-2 text-sm leading-relaxed text-slate-400">

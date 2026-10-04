@@ -16,7 +16,7 @@ export default function About() {
       <div>
         <FadeIn>
           <p className="mb-4 text-slate-400 leading-relaxed">
-            I&apos;m a Software Engineer with 5+ years of experience building
+            I&apos;m a Senior Software Engineer with 5+ years of experience building
             scalable, accessible, and high-performance web applications for
             consumer-facing products. I enjoy working at the intersection of
             product, design, and engineering, taking ownership of complex
@@ -39,12 +39,12 @@ export default function About() {
             used by a large and diverse user base. I take features from
             architecture to delivery, working closely with product, design, and
             backend teams to hit business goals while keeping strong standards
-            for accessibility, performance, and code quality.
+            for accessibility, performance, and code quality. I&apos;m also part of the Vulnerability Management team, triaging and remediating security findings across the codebase.
           </p>
         </FadeIn>
         <FadeIn delay={200}>
           <p className="mb-4 text-slate-400 leading-relaxed">
-            Previously, I worked as a Full stack developer at{" "}
+            Previously, I worked as a Software Developer at{" "}
             <a
               href="https://www.igdst.com/"
               className="link-underline font-semibold text-slate-200 hover:text-teal-400 focus-visible:text-teal-400 transition-colors"
