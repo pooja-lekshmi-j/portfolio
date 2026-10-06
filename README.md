@@ -40,7 +40,12 @@ src/
 │   ├── SpotlightEffect.tsx # Cursor spotlight effect
 │   ├── FadeIn.tsx          # Scroll fade-in animation
 │   ├── BackToTop.tsx       # Back-to-top button
-│   └── ArrowIcon.tsx       # Reusable arrow icon
+│   ├── ArrowIcon.tsx       # Reusable arrow icon
+│   ├── SectionHeading.tsx  # Sticky mobile section heading
+│   ├── HoverGlow.tsx       # Hover-highlight overlay for list items
+│   ├── TechPillList.tsx    # Technology tag list
+│   ├── TitleLink.tsx       # Title link with hover arrow
+│   └── SocialLink.tsx      # Social media icon link
 └── data/
     ├── experience.ts       # Experience entries
     └── projects.ts         # Project entries
