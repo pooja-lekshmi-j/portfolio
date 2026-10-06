@@ -72,24 +72,26 @@ export default function Projects() {
                   </div>
 
                   <div className="z-10 order-1 sm:col-span-3">
-                    <div className="img-tilt relative overflow-hidden rounded border-2 border-slate-200/10 transition-all duration-200 group-hover:border-slate-200/30 sm:order-1 sm:translate-y-1">
-                      {project.image ? (
-                        <>
-                          <Image
-                            src={project.image}
-                            alt={`${project.title} Screenshot`}
-                            width={280}
-                            height={168}
-                            className="h-auto w-full object-cover transition-all duration-200 group-hover:scale-105"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-navy-900/40 to-transparent opacity-60 transition-opacity group-hover:opacity-0" />
-                        </>
-                      ) : (
-                        <div className="flex aspect-video w-full items-center justify-center bg-navy-800/80 text-xs text-slate-500">
-                          Preview
-                        </div>
-                      )}
-                    </div>
+                    <FadeIn delay={index * 100 + 150} direction="none" scale>
+                      <div className="img-tilt relative overflow-hidden rounded border-2 border-slate-200/10 transition-all duration-200 group-hover:border-slate-200/30 sm:order-1 sm:translate-y-1">
+                        {project.image ? (
+                          <>
+                            <Image
+                              src={project.image}
+                              alt={`${project.title} Screenshot`}
+                              width={280}
+                              height={168}
+                              className="h-auto w-full object-cover transition-all duration-200 group-hover:scale-105"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-navy-900/40 to-transparent opacity-60 transition-opacity group-hover:opacity-0" />
+                          </>
+                        ) : (
+                          <div className="flex aspect-video w-full items-center justify-center bg-navy-800/80 text-xs text-slate-500">
+                            Preview
+                          </div>
+                        )}
+                      </div>
+                    </FadeIn>
                   </div>
                 </div>
               </FadeIn>

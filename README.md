@@ -45,7 +45,10 @@ src/
 │   ├── HoverGlow.tsx       # Hover-highlight overlay for list items
 │   ├── TechPillList.tsx    # Technology tag list
 │   ├── TitleLink.tsx       # Title link with hover arrow
-│   └── SocialLink.tsx      # Social media icon link
+│   ├── SocialLink.tsx      # Social media icon link
+│   ├── FooterLink.tsx      # Footer external link
+│   ├── ScrollProgress.tsx  # Top scroll progress bar
+│   └── TypewriterText.tsx  # Typewriter text reveal effect
 └── data/
     ├── experience.ts       # Experience entries
     └── projects.ts         # Project entries

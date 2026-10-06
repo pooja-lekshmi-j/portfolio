@@ -15,6 +15,7 @@ interface FadeInProps {
   className?: string;
   delay?: number;
   direction?: keyof typeof translateMap;
+  scale?: boolean;
 }
 
 export default function FadeIn({
@@ -22,6 +23,7 @@ export default function FadeIn({
   className = "",
   delay = 0,
   direction = "up",
+  scale = false,
 }: FadeInProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -32,12 +34,9 @@ export default function FadeIn({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(el);
-        }
+        setIsVisible(entry.isIntersecting);
       },
-      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
     );
 
     observer.observe(el);
@@ -49,8 +48,8 @@ export default function FadeIn({
       ref={ref}
       className={`transition-all duration-700 ease-out ${
         isVisible
-          ? "opacity-100 translate-x-0 translate-y-0"
-          : `opacity-0 ${translateMap[direction]}`
+          ? "opacity-100 scale-100 translate-x-0 translate-y-0"
+          : `opacity-0 ${translateMap[direction]} ${scale ? "scale-95" : ""}`
       } ${className}`}
       style={{ transitionDelay: `${delay}ms` }}
     >

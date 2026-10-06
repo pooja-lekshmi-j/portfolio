@@ -10,23 +10,25 @@ const inter = Inter({
   display: "swap",
 });
 
+const TITLE = "Pooja Lekshmi J | Senior Software Engineer";
+const SOCIAL_DESCRIPTION =
+  "Senior Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.";
+
 export const metadata: Metadata = {
-  title: "Pooja Lekshmi J | Senior Software Engineer",
+  title: TITLE,
   description:
     "Pooja Lekshmi J — Senior Software Engineer. I build fast, reliable, user-friendly web apps.",
   metadataBase: new URL("https://poojalekshmij.dev"),
   openGraph: {
-    title: "Pooja Lekshmi J | Senior Software Engineer",
-    description:
-      "Senior Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
+    title: TITLE,
+    description: SOCIAL_DESCRIPTION,
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pooja Lekshmi J | Senior Software Engineer",
-    description:
-      "Senior Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
+    title: TITLE,
+    description: SOCIAL_DESCRIPTION,
   },
   other: {
     "theme-color": "#0f172a",
