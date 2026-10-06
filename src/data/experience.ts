@@ -18,7 +18,7 @@ const experiences: Experience[] = [
     promotedDate: "Sep 2026",
     range: "NOV 2023 — Present",
     description:
-      "Led payment onboarding improvements by optimizing user flows and integrating Adyen, boosting transaction reliability. I also built and maintained full-stack marketplace integrations with Etsy, eBay and Amazon, improving data sync and third-party onboarding. As a part of the Vulnerability Management team, I triaged and remediated security findings, while maintaining code quality through automated testing and reusable UI components.",
+      "Led payment onboarding improvements by optimizing user flows and integrating Adyen, boosting transaction reliability. I also built and maintained full-stack marketplace integrations with Etsy, eBay and Amazon, improving data sync and third-party onboarding. As a part of the Vulnerability Management team, I triaged and remediated security findings, while maintaining code quality through automated testing and reusable UI components, and on-call incident response.",
     technologies: [
       "TypeScript",
       "React",
@@ -51,7 +51,7 @@ const experiences: Experience[] = [
     title: "Java Developer Trainee",
     company: "Quest Innovative Solutions",
     url: "https://www.qis.co.in/",
-    range: "SEP 2019 — MAR 2021",
+    range: "SEP 2019 — DEC 2019",
     description:
       "Developed Java EE applications using Spring and ORM frameworks, focusing on maintainability and stability. Worked with Java's internal mechanisms (class loading, memory management, transactions), built REST services, and integrated relational databases. Applied test-driven development to ensure high-quality releases.",
     technologies: ["Java", "Spring", "SQL", "ORM", "Rest APIs"],

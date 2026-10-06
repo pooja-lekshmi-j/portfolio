@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Pooja Lekshmi J | Senior oftware Engineer",
+  title: "Pooja Lekshmi J | Senior Software Engineer",
   description:
     "Pooja Lekshmi J — Senior Software Engineer. I build fast, reliable, user-friendly web apps.",
   metadataBase: new URL("https://poojalekshmij.dev"),
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pooja Lekshmi J | Senior oftware Engineer",
+    title: "Pooja Lekshmi J | Senior Software Engineer",
     description:
       "Senior Software Engineer building fast, reliable, and user-friendly web applications with modern technologies.",
   },
@@ -39,11 +39,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <html lang="en" className={inter.variable}>
-        <body className={inter.className}>{children}
-          <SpeedInsights />
-          <Analytics />
-        </body>
-      </html>
+    <html lang="en" className={inter.variable}>
+      <body className={inter.className}>
+        {children}
+        <SpeedInsights />
+        <Analytics />
+      </body>
+    </html>
   );
 }

@@ -1,4 +1,5 @@
 import FadeIn from "@/shared/FadeIn";
+import SectionHeading from "@/shared/SectionHeading";
 
 export default function About() {
   return (
@@ -7,18 +8,14 @@ export default function About() {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
       aria-label="About me"
     >
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-navy-900/75 px-6 py-5 backdrop-blur-sm md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="section-bar text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-          About
-        </h2>
-      </div>
+      <SectionHeading title="About" />
 
       <div>
         <FadeIn>
           <p className="mb-4 text-slate-400 leading-relaxed">
-            I&apos;m a Senior Software Engineer with 5+ years of experience building
-            scalable, accessible, and high-performance web applications for
-            consumer-facing products. I enjoy working at the intersection of
+            I&apos;m a Senior Software Engineer with 5+ years of experience
+            building scalable, accessible, and high-performance web applications
+            for consumer-facing products. I enjoy working at the intersection of
             product, design, and engineering, taking ownership of complex
             problems and delivering solutions that are reliable, maintainable,
             and built to grow.
@@ -39,7 +36,9 @@ export default function About() {
             used by a large and diverse user base. I take features from
             architecture to delivery, working closely with product, design, and
             backend teams to hit business goals while keeping strong standards
-            for accessibility, performance, and code quality. I&apos;m also part of the Vulnerability Management team, triaging and remediating security findings across the codebase.
+            for accessibility, performance, and code quality. I&apos;m also part
+            of the Vulnerability Management team, triaging and remediating
+            security findings across the codebase.
           </p>
         </FadeIn>
         <FadeIn delay={200}>
